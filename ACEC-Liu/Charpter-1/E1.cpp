@@ -12,7 +12,6 @@ const int maxn = 20000 + 5;
 int main(){
     int n, m;
     int N[maxn], M[maxn];
-    cout << "hello iyuge2!" << endl;
     while(scanf("%d %d", &n, &m) == 2 && n && m){
         for(int i=0; i < n; i++) cin >> N[i];
         for(int i=0; i < m; i++) cin >> M[i];
